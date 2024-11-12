@@ -12,7 +12,7 @@ def collect_mdx_content(root_folder, output_file):
                     outfile.write('\n\n')  # Separate contents of different files
 
 if __name__ == "__main__":
-    root_folder = "."  # Root folder where script is located
+    root_folder = "./books"  # Root folder where script is located
     output_file = os.path.join(root_folder, 'all_mdx_contents.txt')
     collect_mdx_content(root_folder, output_file)
     print(f"Collected .mdx contents saved to {output_file}")
