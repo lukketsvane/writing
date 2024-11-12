@@ -159,7 +159,7 @@ PikNik er ei plattform der brukarar kan skape kreative måltid i fellesskap, gje
 
 PikNik er ei interaktiv matlagingsapp der brukarar kan samarbeide i sanntid for å lage kreative oppskrifter basert på ingrediensane dei har.
 
-<img src="/public/images/piknik/utlops-varsel.png" alt="PikNik Reducing Food Waste" style={{ width: "100%", borderRadius: "8px", marginTop: "20px", marginBottom: "20px" }} />
+<a href="https://ibb.co/utlops-varsel.png"><img src="https://i.ibb.co/utlops-varsel.png" alt="PikNik Reducing Food Waste" style={{ width: "100%", borderRadius: "8px", marginTop: "20px", marginBottom: "20px" }} border="0"></a>
 
 ---
 
@@ -298,14 +298,14 @@ date: 2024-03-30
 tags: design, additive manufacturing, optimization, 3D printing, innovation
 type: project
 category: Advanced Manufacturing
-image: "../public/images/coral/coral_11.png"
+image: "https://i.ibb.co/coral_11.png"
 ---
 
 # About Korall Projects
 
 Founded on the innovative spirit and pioneering work of its co-founders, including my own journey as CEO from November 2019 to January 2021, Korall Projects AS has carved its niche in the projects world. Located in the heart of Bergen, Norway, our startup initially known as Coral Solutions, has evolved into a leader in design for additive manufacturing, focusing on the integration of optimization algorithms and technologies like TPMS/lattice structures into automated design workflows.
 
-![Korall Projects Innovation](../public/images/coral/coral_11.png)
+<a href="https://ibb.co/Korall Projects Innovation"><img src="https://i.ibb.co/Korall Projects Innovation" alt="Korall Projects Innovation" border="0"></a>
 
 ## Our Vision
 
@@ -364,7 +364,7 @@ date: 2018-01-01
 tags: agriculture, vertical farming, sustainability, automation, renewable energy
 type: project
 category: Sustainable Agriculture
-image: ../public/images/ygdrasyl/ygdrasyl_2.png
+image: "https://i.ibb.co/ygdrasyl_2.png"
 ---
 
 # Ygdrasyl Project - A Revolution in Agriculture
@@ -410,14 +410,14 @@ date: 2023-08-26
 tags: design, tableware, 3D modeling, photography, marketing
 type: project
 category: Product Design
-image: /public../public/images/dongjin/dongjin-logo.jpg
+image: "https://i.ibb.co/dongjin-logo.jpg"
 ---
 
 # DongJin Tableware - Elevating Dining Experiences Through Design
 
 At DongJin Tableware (Yangxin) Co., Ltd, I served as an Executive Designer, leading a dynamic team in creating innovative tableware designs. Our work combined aesthetic appeal with functional excellence, setting new standards in the industry.
 
-![DongJin Logo](/public../public/images/dongjin/dongjin-logo.jpg)
+<a href="https://ibb.co/DongJin Logo"><img src="https://i.ibb.co/DongJin Logo" alt="DongJin Logo" border="0"></a>
 
 ## Position Overview
 
@@ -458,7 +458,7 @@ date: 2023-08-26
 tags: AI, storytelling, children, creativity, education
 type: project
 category: AI Applications
-image: /public../public/images/storygen/simplified_graph.jpeg
+image: "https://i.ibb.co/simplified_graph.jpeg"
 ---
 
 # StoryGen 📖
@@ -518,7 +518,7 @@ This perspective emerged from a thought-provoking comment on a video discussing 
 
 The potential of artificial intelligence extends beyond the confines of current debates, promising an era of enhanced goods and services production. AI's capability to improve production efficiency heralds a transformative shift in economic productivity, presenting opportunities for substantial advancements.
 
-![Economic Productivity](/public../public/images/scenarios-for-output-and-wages.webp)
+<a href="https://ibb.co/Economic Productivity"><img src="https://i.ibb.co/Economic Productivity" alt="Economic Productivity" border="0"></a>
 
 While technology's dual nature presents both opportunities and challenges, the overarching impact of AI on the economy is profoundly positive. The impending automation revolution may lead to significant shifts in industries such as healthcare and entertainment, potentially reshaping the economic landscape.
 
@@ -540,9 +540,9 @@ The concept of a finite amount of labor, a common misconception, fails to accoun
 
 The concept of economic agency, encompassing the ability to participate actively in economic decision-making, becomes increasingly relevant in a post-labor economy. Ensuring equitable access to economic opportunities and fostering inclusive systems are essential for sustaining economic agency in the face of technological advancements.
 
-![Labor Force Participation Rate](/public../public/images/civilian-labor-force-participation-rate.webp)
+<a href="https://ibb.co/Labor Force Participation Rate"><img src="https://i.ibb.co/Labor Force Participation Rate" alt="Labor Force Participation Rate" border="0"></a>
 
-![Total Civilian Employment](/public../public/images/civilian-employment-seasonal.webp)
+<a href="https://ibb.co/Total Civilian Employment"><img src="https://i.ibb.co/Total Civilian Employment" alt="Total Civilian Employment" border="0"></a>
 
 ## Envisioning Economic Participation in a Post-Labor World
 
@@ -573,7 +573,7 @@ image: /public../public/images/ai-novel-generation-architecture.png
 
 The realm of artificial intelligence (AI) and machine learning is rapidly evolving, with significant implications for creative fields like writing. This article explores the cutting-edge developments in AI-driven novel generation systems, focusing on the cognitive architectures that underpin these advanced applications.
 
-![AI Novel Generation Architecture](/public../public/images/ai-novel-generation-architecture.png)
+<a href="https://ibb.co/AI Novel Generation Architecture"><img src="https://i.ibb.co/AI Novel Generation Architecture" alt="AI Novel Generation Architecture" border="0"></a>
 
 From OpenAI's innovations to pioneering prompting techniques like Chain of Thought (CoT) and Tree of Thoughts Reasoning (ToT), we'll examine how these advancements are pushing the boundaries of AI's creative capabilities and bringing us closer to AI systems that can rival human creativity in storytelling.
 
@@ -583,9 +583,9 @@ The realm of artificial intelligence (AI) and machine learning is in a state of 
 
 The journey of AI towards achieving its full potential hinges on our understanding and refining of these cognitive architectures. LangChain champions the need to exert control over these architectures, paving the way for solutions that are both customizable and potent. Pioneering developments in prompting techniques like Chain of Thought (CoT) and Tree of Thoughts Reasoning (ToT) are critical in this endeavor, enhancing AI models' capacity for nuanced and dynamic problem-solving—a major stride in the realm of AI reasoning.
 
-![Architecture Diagram](https://blog.langchain.dev/content/public../public/images/2023/11/68747470733a2f2f636f7772697465722d696d616765732e73332e616d617a6f6e6177732e636f6d2f6172636869746563747572652e706e67--2-.png)
+<a href="https://ibb.co/Architecture Diagram"><img src="https://i.ibb.co/Architecture Diagram" alt="Architecture Diagram" border="0"></a>
 
-![Flowchart](https://blog.langchain.dev/content/public../public/images/2023/11/flowchart.15fed92e--2-.svg)
+<a href="https://ibb.co/Flowchart"><img src="https://i.ibb.co/Flowchart" alt="Flowchart" border="0"></a>
 
 ## Main Areas
 
@@ -670,7 +670,7 @@ date: May 22, 2024
 image: /public../public/images/knowledge-graph-llms.png
 ---
 
-![predictive chat overview](/public../public/images/predictive-chat-overview.png)
+<a href="https://ibb.co/predictive chat overview"><img src="https://i.ibb.co/predictive chat overview" alt="predictive chat overview" border="0"></a>
 
 **PredictiveChat:** A Novel Approach to Minimizing Latency in Conversational AI through Anticipation
 
@@ -687,7 +687,7 @@ PredictiveChat introduces an innovative approach to leveraging large language mo
 
 Conversational AI interfaces often suffer from latency, which can detract from the naturalness of human-computer interaction. PredictiveChat addresses this challenge by emulating the human ability to predict and formulate responses during conversation, aiming to achieve “negative latency” in certain instances and almost zero latency in others. This system not only seeks to reduce wait times but also leverages the additional processing time for more thoughtful and contextually relevant responses.
 
-![typing](/public../public/images/typing.gif)
+<a href="https://ibb.co/typing"><img src="https://i.ibb.co/typing" alt="typing" border="0"></a>
 
 
 Example input: “When are the next Olympics being held?” cuts off the user message and answers correctly.
@@ -708,7 +708,7 @@ Twitter discussions highlighted several theoretical approaches and practical imp
 
 These discussions underscore the community’s interest in leveraging LLMs for predictive conversational AI, offering insights into potential improvements and innovations.
 
-![predictive chat overview](/public../public/images/predictive-chat-overview.png)
+<a href="https://ibb.co/predictive chat overview"><img src="https://i.ibb.co/predictive chat overview" alt="predictive chat overview" border="0"></a>
 
 ## 3. System Architecture and Implementation
 
@@ -748,7 +748,7 @@ date: 2024-04-01
 tags: AI art, GAN, diffusion models, machine learning, digital art
 type: writing
 category: Art and Technology
-image: /public../public/images/gradient_diffusion/gradient_1.webp
+image: "https://i.ibb.co/gradient_1.webp"
 ---
 
 # Gradient Descent: The Art of AI-Generated Imagery
@@ -862,7 +862,7 @@ date: 2024-03-26
 tags: generative art, AI art, creativity, algorithms, digital art
 type: writing
 category: Art and Technology
-image: /public../public/images/what-is-generative-art/bw_simple_1.png
+image: "https://i.ibb.co/bw_simple_1.png"
 ---
 
 # What is Generative Art?
@@ -927,7 +927,7 @@ Instead, embracing true _generative_ art involves employing functions like `rand
 
 Vera Molnar, a pioneer in generative art, extensively incorporated randomness into her work. Viewing [this clip](https://vimeo.com/372579247) of her discussing her methodology is highly inspirational.
 
-![Vera Molnar's Work](/public../public/images/what-is-generative-art/vera_molnar_interruptions.webp)
+<a href="https://ibb.co/Vera Molnar's Work"><img src="https://i.ibb.co/Vera Molnar's Work" alt="Vera Molnar's Work" border="0"></a>
 *Vera Molnar's discussion on generative art.*
 
 ## Pseudorandomness
@@ -940,7 +940,7 @@ A prng initiates with a "seed" and applies an algorithm to generate a number. Th
 
 Utilizing the algorithm with numerous unique seeds aims to produce a uniform distribution of numbers. This principle is illustrated in a p5js example that distributes 10,000 squares across a canvas, their placements determined by the `random()` function.
 
-![func_ran.png](/public../public/images/what-is-generative-art/func_ran.png)
+<a href="https://ibb.co/func_ran.png"><img src="https://i.ibb.co/func_ran.png" alt="func_ran.png" border="0"></a>
 *Uniform distribution of squares via the `random()` function.*
 
 The seed can be static for purposes such as testing or achieving repeatable results. In the realm of NFTs, platforms like [fxhash](https://www.fxhash.xyz/u/Amy%20Goodchild) and [ArtBlocks](https://artblocks.io/) utilize a blockchain transaction hash as the seed, ensuring consistency in the randomness.
