@@ -5,7 +5,7 @@ date: 2024-03-26
 tags: generative art, AI art, creativity, algorithms, digital art
 type: writing
 category: Art and Technology
-image: /images/what-is-generative-art/bw_simple_1.png
+image: ../images/what-is-generative-art/bw_simple_1.png
 ---
 
 # What is Generative Art?
@@ -14,10 +14,10 @@ Generative art stands at the intersection of creativity and technology, where au
 
 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/bw_simple_1.png" alt="Generative Art Example 1" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/bw_simple_1.png" alt="Generative Art Example 1" style={{ width: '100%', marginBottom: '10px' }} />
   </div>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/bw_simple_2.png" alt="Generative Art Example 2" style={{ width: '100%' }} />
+    <img src="../images/what-is-generative-art/bw_simple_2.png" alt="Generative Art Example 2" style={{ width: '100%' }} />
   </div>
 </div>
 
@@ -54,12 +54,12 @@ Below, (work-in-progress) visuals illustrate how variables govern the arrangemen
 
 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src=/images/what-is-generative-art/bw_simple_1.png alt=bw_simple_1 style={{ width: '100%', marginBottom: '10px' }} />
-    <img src=/images/what-is-generative-art/bw_simple_2.png alt="bw_simple_2" style={{ width: '100%' }} />
+    <img src=../images/what-is-generative-art/bw_simple_1.png alt=bw_simple_1 style={{ width: '100%', marginBottom: '10px' }} />
+    <img src=../images/what-is-generative-art/bw_simple_2.png alt="bw_simple_2" style={{ width: '100%' }} />
   </div>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/bw_simple_3.png" alt="bw_simple_3" style={{ width: '100%', marginBottom: '10px' }} />
-    <img src="/images/what-is-generative-art/bw_simple_4.png" alt="bw_simple_4" style={{ width: '100%' }} />
+    <img src="../images/what-is-generative-art/bw_simple_3.png" alt="bw_simple_3" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/bw_simple_4.png" alt="bw_simple_4" style={{ width: '100%' }} />
   </div>
 </div>
 
@@ -69,7 +69,7 @@ Instead, embracing true _generative_ art involves employing functions like `rand
 
 Vera Molnar, a pioneer in generative art, extensively incorporated randomness into her work. Viewing [this clip](https://vimeo.com/372579247) of her discussing her methodology is highly inspirational.
 
-![Vera Molnar's Work](/images/what-is-generative-art/vera_molnar_interruptions.webp)
+![Vera Molnar's Work](../images/what-is-generative-art/vera_molnar_interruptions.webp)
 *Vera Molnar's discussion on generative art.*
 
 ## Pseudorandomness
@@ -82,7 +82,7 @@ A prng initiates with a "seed" and applies an algorithm to generate a number. Th
 
 Utilizing the algorithm with numerous unique seeds aims to produce a uniform distribution of numbers. This principle is illustrated in a p5js example that distributes 10,000 squares across a canvas, their placements determined by the `random()` function.
 
-![func_ran.png](/images/what-is-generative-art/func_ran.png)
+![func_ran.png](../images/what-is-generative-art/func_ran.png)
 *Uniform distribution of squares via the `random()` function.*
 
 The seed can be static for purposes such as testing or achieving repeatable results. In the realm of NFTs, platforms like [fxhash](https://www.fxhash.xyz/u/Amy%20Goodchild) and [ArtBlocks](https://artblocks.io/) utilize a blockchain transaction hash as the seed, ensuring consistency in the randomness.
@@ -94,10 +94,10 @@ Using the same seed invariably yields identical outcomes, rendering the process 
 Certain fields, such as banking and cryptography, necessitate truly random numbers. These can be obtained from chaotic natural phenomena, like [atmospheric noise](https://www.random.org/) or the visual dynamics of [lava lamps](https://en.wikipedia.org/wiki/Lavarand).
 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/thunderstorm.png" alt="Thunderstorm" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/thunderstorm.png" alt="Thunderstorm" style={{ width: '100%', marginBottom: '10px' }} />
   </div>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/lava_lamp.png" alt="Lava Lamp" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/lava_lamp.png" alt="Lava Lamp" style={{ width: '100%', marginBottom: '10px' }} />
   </div>
 </div>
 
@@ -121,10 +121,10 @@ While a good prng should offer an even distribution of outcomes, artistic applic
 
 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/distribution%20sketch.png" alt="Distribution Sketch" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/distribution%20sketch.png" alt="Distribution Sketch" style={{ width: '100%', marginBottom: '10px' }} />
   </div>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/func_spatter.png" alt="Function Spatter" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/func_spatter.png" alt="Function Spatter" style={{ width: '100%', marginBottom: '10px' }} />
   </div>
 </div>
 
@@ -134,10 +134,10 @@ Aside from pseudorandom number generators, procedural generation techniques like
 
 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/func_3.png" alt="Random Distribution" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/func_3.png" alt="Random Distribution" style={{ width: '100%', marginBottom: '10px' }} />
   </div>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/func_4.png" alt="Perlin Noise Distribution" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/func_4.png" alt="Perlin Noise Distribution" style={{ width: '100%', marginBottom: '10px' }} />
   </div>
 </div>
 
@@ -155,11 +155,11 @@ Sol LeWitt's artworks serve as quintessential examples of rule-based art. Some o
 
 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/sol_lewitt_wall_drawing.png" alt="Sol LeWitt - Wall Drawing #118" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/sol_lewitt_wall_drawing.png" alt="Sol LeWitt - Wall Drawing #118" style={{ width: '100%', marginBottom: '10px' }} />
     <p>Sol LeWitt - Wall Drawing #118</p>
   </div>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/sol_lewitt_proposal_for_wall_drawing.png" alt="Sol LeWitt - Proposal for Wall Drawing" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/sol_lewitt_proposal_for_wall_drawing.png" alt="Sol LeWitt - Proposal for Wall Drawing" style={{ width: '100%', marginBottom: '10px' }} />
     <p>Sol LeWitt - Proposal for Wall Drawing</p>
   </div>
 </div>
@@ -168,15 +168,15 @@ LeWitt's instructions have been realized multiple times, showcasing the interpre
 
 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
   <div style={{ width: '33.33%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/sol_lewitt_Interactive_wall_drawing.png" alt="Genuary Day 7 - Sol LeWitt Wall Drawing" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/sol_lewitt_Interactive_wall_drawing.png" alt="Genuary Day 7 - Sol LeWitt Wall Drawing" style={{ width: '100%', marginBottom: '10px' }} />
     <p>Genuary Day 7 - Sol LeWitt Wall Drawing</p>
   </div>
   <div style={{ width: '33.33%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/sol_lewitt_wall_drawing_interactive.jpg" alt="Interactive Sol LeWitt Wall Drawing" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/sol_lewitt_wall_drawing_interactive.jpg" alt="Interactive Sol LeWitt Wall Drawing" style={{ width: '100%', marginBottom: '10px' }} />
     <p>Interactive Sol LeWitt Wall Drawing</p>
   </div>
   <div style={{ width: '33.33%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/sol_lewitt_drawing_being_made_at_dia_beacon.png" alt="Sol LeWitt drawing being made at Dia Beacon" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/sol_lewitt_drawing_being_made_at_dia_beacon.png" alt="Sol LeWitt drawing being made at Dia Beacon" style={{ width: '100%', marginBottom: '10px' }} />
     <p>Sol LeWitt drawing being made at Dia Beacon</p>
   </div>
 </div>
@@ -216,15 +216,15 @@ These dynamics generate complex patterns across the grid, influenced by the init
 
 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
   <div style={{ width: '30%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/conway_1.gif" alt="3 phase pulsar" style={{ width: '100%' }} />
+    <img src="../images/what-is-generative-art/conway_1.gif" alt="3 phase pulsar" style={{ width: '100%' }} />
     <p>3 phase pulsar</p>
   </div>
   <div style={{ width: '30%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/conway_2.gif" alt="Finite pattern" style={{ width: '100%' }} />
+    <img src="../images/what-is-generative-art/conway_2.gif" alt="Finite pattern" style={{ width: '100%' }} />
     <p>Finite pattern</p>
   </div>
   <div style={{ width: '30%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/conway_3.gif" alt="Gliders" style={{ width: '100%' }} />
+    <img src="../images/what-is-generative-art/conway_3.gif" alt="Gliders" style={{ width: '100%' }} />
     <p>Gliders</p>
   </div>
 </div>
@@ -257,10 +257,10 @@ Consider these two representations of snowflakes. The first set of images showca
 
 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/snowflake_1.png" alt="Snowflake 1" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/snowflake_1.png" alt="Snowflake 1" style={{ width: '100%', marginBottom: '10px' }} />
   </div>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/snowflake_2.png" alt="Snowflake 2" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/snowflake_2.png" alt="Snowflake 2" style={{ width: '100%', marginBottom: '10px' }} />
   </div>
 </div>
 
@@ -272,10 +272,10 @@ This initiative highlights the distinction between simulated environments and th
 
 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/magical_contamination_1.png" alt="Magical Contamination 1" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/magical_contamination_1.png" alt="Magical Contamination 1" style={{ width: '100%', marginBottom: '10px' }} />
   </div>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/magical_contamination_2.png" alt="Magical Contamination 2" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/magical_contamination_2.png" alt="Magical Contamination 2" style={{ width: '100%', marginBottom: '10px' }} />
   </div>
 </div>
 
@@ -295,10 +295,10 @@ Casey Reas' pen-plotted series [_RGB-3_](https://reas.com/rgb_3/) illustrates th
 
 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/reas_rgb_3_1.jpg" alt="Casey Reas RGB 3 1" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/reas_rgb_3_1.jpg" alt="Casey Reas RGB 3 1" style={{ width: '100%', marginBottom: '10px' }} />
   </div>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/reas_rgb_3_2.jpg" alt="Casey Reas RGB 3 2" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/reas_rgb_3_2.jpg" alt="Casey Reas RGB 3 2" style={{ width: '100%', marginBottom: '10px' }} />
   </div>
 </div>
 
@@ -320,11 +320,11 @@ Certain works in this genre seamlessly blend with data visualization, such as Aa
 
 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/flight_patterns.jpg" alt="Flight Patterns (2010) - Aaron Koblin" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/flight_patterns.jpg" alt="Flight Patterns (2010) - Aaron Koblin" style={{ width: '100%', marginBottom: '10px' }} />
     <p>Flight Patterns (2010) - Aaron Koblin</p>
   </div>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/asphyxia.jpg" alt="Asphyxia (2015) - Maria Takeuchi , Frederico Phillips, performed by Shiho Tanaka" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/asphyxia.jpg" alt="Asphyxia (2015) - Maria Takeuchi , Frederico Phillips, performed by Shiho Tanaka" style={{ width: '100%', marginBottom: '10px' }} />
     <p>Asphyxia (2015) - Maria Takeuchi , Frederico Phillips, performed by Shiho Tanaka</p>
   </div>
 </div>
@@ -333,11 +333,11 @@ Certain works in this genre seamlessly blend with data visualization, such as Aa
 
 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/charles_sowers_windswept_1.png" alt="Windswept (2011) - Charles Sowers" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/charles_sowers_windswept_1.png" alt="Windswept (2011) - Charles Sowers" style={{ width: '100%', marginBottom: '10px' }} />
     <p>Windswept (2011) - Charles Sowers</p>
   </div>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/charles_sowers_windswept_2.png" alt="Windswept (2011) - Charles Sowers" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/charles_sowers_windswept_2.png" alt="Windswept (2011) - Charles Sowers" style={{ width: '100%', marginBottom: '10px' }} />
     <p>Windswept (2011) - Charles Sowers</p>
   </div>
 </div>
@@ -350,11 +350,11 @@ Machine learning algorithms depend on datasets for training. Anna Ridler's [_Myr
 
 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/myriad_tulips.jpg" alt="Myriad (Tulips) (2018) - Anna Ridler" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/myriad_tulips.jpg" alt="Myriad (Tulips) (2018) - Anna Ridler" style={{ width: '100%', marginBottom: '10px' }} />
     <p>Myriad (Tulips) (2018) - Anna Ridler</p>
   </div>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/mosaic_virus.jpg" alt="Mosaic Virus (2019) - Anna Ridler" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/mosaic_virus.jpg" alt="Mosaic Virus (2019) - Anna Ridler" style={{ width: '100%', marginBottom: '10px' }} />
     <p>Mosaic Virus (2019) - Anna Ridler</p>
   </div>
 </div>
@@ -369,11 +369,11 @@ Surrealists employed automatic drawing as a means for the artist's subconscious 
 
 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/hilma_af_klint_the_five.png" alt="A collective automatic drawing by The Five, Hilma af Klint's spiritualist group" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/hilma_af_klint_the_five.png" alt="A collective automatic drawing by The Five, Hilma af Klint's spiritualist group" style={{ width: '100%', marginBottom: '10px' }} />
     <p>A collective automatic drawing by The Five, Hilma af Klint's spiritualist group</p>
   </div>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/the_smile_of_the_flamboyant_wings.png" alt="The Smile of the Flamboyant Wings (1953) - Joan Miró" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/the_smile_of_the_flamboyant_wings.png" alt="The Smile of the Flamboyant Wings (1953) - Joan Miró" style={{ width: '100%', marginBottom: '10px' }} />
     <p>The Smile of the Flamboyant Wings (1953) - Joan Miró</p>
   </div>
 </div>
@@ -384,11 +384,11 @@ Considering the balance of control inherent in many generative artworks—betwee
 
 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/paul_emile_borduas_untitled.webp" alt="Untitled (1954-55) - Paul Emile Borduas" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/paul_emile_borduas_untitled.webp" alt="Untitled (1954-55) - Paul Emile Borduas" style={{ width: '100%', marginBottom: '10px' }} />
     <p>Untitled (1954-55) - Paul Emile Borduas</p>
   </div>
   <div style={{ width: '50%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/max_ernst_forest_and_dove.jpg" alt="Forest and Dove (1927) - Max Ernst Uses grattage technique" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/max_ernst_forest_and_dove.jpg" alt="Forest and Dove (1927) - Max Ernst Uses grattage technique" style={{ width: '100%', marginBottom: '10px' }} />
     <p>Forest and Dove (1927) - Max Ernst Uses grattage technique</p>
   </div>
 </div>
@@ -405,7 +405,7 @@ I posited that traditional painting could be viewed through a generative lens, p
 
 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
   <div style={{ width: '80%', padding: '5px' }}>
-    <img src="/images/what-is-generative-art/jackson_pollock_alchemy.png" alt="Alchemy (1947) - Jackson Pollock" style={{ width: '100%', marginBottom: '10px' }} />
+    <img src="../images/what-is-generative-art/jackson_pollock_alchemy.png" alt="Alchemy (1947) - Jackson Pollock" style={{ width: '100%', marginBottom: '10px' }} />
     <p>Alchemy (1947) - Jackson Pollock</p>
   </div>
 </div>
